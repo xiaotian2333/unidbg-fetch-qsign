@@ -11,6 +11,13 @@
 
 **[Wiki](https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki)**
 
+自编译qsign方法
+要编译qsign，需要 JDK=8 和互联网连接
+
+首先克隆qsign存储库，从终端运行 ./gradlew build ，然后可以在目录 build/distributions 中找到已编译的 tar 或 zip 文件
+
+要获取完整的任务列表，请运行 ./gradlew tasks
+
 # 你可能需要的项目
 
 - [fix-protocol-version](https://github.com/cssxsh/fix-protocol-version)：基于**mirai**的qsign api对接。
